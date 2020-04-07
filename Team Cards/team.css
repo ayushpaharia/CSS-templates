@@ -1,0 +1,67 @@
+/* TEAM CARDS */
+.row {
+  /* adjustment of cards in the page */
+  /* adding a hover event to images to extend on right and display content */
+}
+.cage {
+  --card-name: #00e096;
+  --font-icon-color: #fff;
+  background-color: #101426;
+  display: flex;
+  justify-content: space-around;
+  color: var(--font-icon-color);
+  font-family: "sen", sans-serif;
+  border-radius: 0.8em;
+  width: 40vw;
+  padding: 2vw 24vw !important;
+  margin: 10px;
+  height: 22vw;
+}
+.cage .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cage .image img {
+  height: 15vw;
+  border: 5px solid var(--card-name);
+  border-radius: 50%;
+  object-fit: cover;
+  width: auto;
+}
+/* ICONS */
+.links {
+  white-space: nowrap;
+}
+.fab {
+  color: var(--font-icon-color);
+  font-size: 3.5vw !important;
+}
+/* HIDING */
+.hidden {
+  display: hidden;
+}
+/* CONTENT */
+.cage .content {
+  text-align: center;
+  margin: 0 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cage .content h1 {
+  color: var(--card-name);
+  font-weight: 800;
+  font-size: 3vw;
+  white-space: nowrap;
+  letter-spacing: -1.8px;
+}
+.cage .content .description1 {
+  font-size: 1.5vw;
+  white-space: nowrap;
+}
+.cage .content .description2 {
+  margin-top: 1vw;
+  font-size: 1.2vw;
+}
